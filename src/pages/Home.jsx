@@ -8,17 +8,17 @@ const Home = () => {
   return (
     <MainLayout>
       <header className="hero_section min-h-[33rem] pb-[5rem] bg-white flex items-center justify-between w-full">
-        <div className="item_container md:pl-[4rem] md:w-[60%] w-full">
-          <blockquote className="font-bold block md:text-[2.1vw] open-sans text-[1.5rem] md:w-[80%] w-[95%] md:text-left text-center md:mx-o mx-auto">
+        <div className="item_container md:pl-[4rem] md:px-0 px-3 md:w-[60%] w-full">
+          <blockquote className="font-bold block md:text-[2.1vw] open-sans text-[1.3rem] md:text-left text-center md:mx-o mx-auto">
             HOW LOSING 45,000 NAIRA MADE ME OVER 500,000 NAIRA PROFIT {""}
-            <span className="text-red-500">ONLINE</span>
+            <span className="text-red-500 block">ONLINE</span>
           </blockquote>
-          <blockquote className="my-4 block md:font-semibold md:text-left text-center md:mx-o mx-auto md:w-[85%] w-[97%]">
+          <blockquote className="my-4 block md:font-semibold md:text-left text-center md:mx-o mx-auto md:text-[1rem] text-[.8rem]">
             All made with my smartphone, I didn't have to travel anywhere or
             visit any physical site/office. This is Super Real. My 2-DAYS FREE
             Training Will Teach You How I Did This
           </blockquote>
-          <button className="md:w-[15rem] w-[80%] md:mx-0 mx-auto md:h-[4rem] h-[3rem] items-center justify-center font-semibold rounded-full text-center flex bg-slate-600 text-white">
+          <button className="md:w-[15rem] w-[80%] md:h-[4rem] h-[3rem] items-center md:mx-0 mx-auto justify-center font-semibold rounded-full text-center flex bg-slate-600 text-white">
             Learn More
           </button>
         </div>
@@ -34,7 +34,7 @@ const Home = () => {
 
       <Marquee
         className="slider-statement cursor-default bg-carpet-green relative"
-        speed={120}
+        speed={50}
         onMouseEnter={() => setIsplaying(false)}
         onMouseLeave={() => setIsplaying(true)}
         play={isplaying}
