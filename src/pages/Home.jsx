@@ -9,11 +9,11 @@ const Home = () => {
     <MainLayout>
       <header className="hero_section min-h-[33rem] pb-[5rem] bg-white flex items-center justify-between w-full">
         <div className="item_container md:pl-[4rem] md:w-[60%] w-full">
-          <blockquote className="font-bold md:text-[2.1vw] open-sans text-[1.5rem] md:w-[80%] w-[95%] md:text-left text-center">
-            HOW LOSING 45,000 NAIRA MADE ME OVER 500,000 NAIRA PROFIT
-            <span className="text-red-600">ONLINE</span>
+          <blockquote className="font-bold block md:text-[2.1vw] open-sans text-[1.5rem] md:w-[80%] w-[95%] md:text-left text-center md:mx-o mx-auto">
+            HOW LOSING 45,000 NAIRA MADE ME OVER 500,000 NAIRA PROFIT {""}
+            <span className="text-red-500">ONLINE</span>
           </blockquote>
-          <blockquote className="my-4 md:font-semibold md:text-left text-center md:w-[85%] w-[97%]">
+          <blockquote className="my-4 block md:font-semibold md:text-left text-center md:mx-o mx-auto md:w-[85%] w-[97%]">
             All made with my smartphone, I didn't have to travel anywhere or
             visit any physical site/office. This is Super Real. My 2-DAYS FREE
             Training Will Teach You How I Did This
@@ -34,26 +34,31 @@ const Home = () => {
 
       <Marquee
         className="slider-statement cursor-default bg-carpet-green relative"
-        speed={150}
+        speed={120}
         onMouseEnter={() => setIsplaying(false)}
         onMouseLeave={() => setIsplaying(true)}
         play={isplaying}
       >
         <div className="element bg-black py-6 flex items-center gap-[5rem]">
           <span className="text-white font-cooper md:text-[1.9rem] text-[1.3rem] font-[800]">
-            • DIGITAL MARKETING • DIGITAL MARKETING • DIGITAL MARKETING
+            • DIGITAL MARKETING • DIGITAL MARKETING IS THE WAY • DIGITAL
+            MARKETING
           </span>
           <span className="text-white font-cooper md:text-[1.9rem] text-[1.3rem] font-[800]">
-            • DIGITAL MARKETING • DIGITAL MARKETING • DIGITAL MARKETING
+            • DIGITAL MARKETING • DIGITAL MARKETING IS THE WAY • DIGITAL
+            MARKETING
           </span>
           <span className="text-white font-cooper md:text-[1.9rem] text-[1.3rem] font-[800]">
-            • DIGITAL MARKETING • DIGITAL MARKETING • DIGITAL MARKETING
+            • DIGITAL MARKETING • DIGITAL MARKETING IS THE WAY • DIGITAL
+            MARKETING
           </span>
           <span className="text-white font-cooper md:text-[1.9rem] text-[1.3rem] font-[800]">
-            • DIGITAL MARKETING • DIGITAL MARKETING • DIGITAL MARKETING
+            • DIGITAL MARKETING • DIGITAL MARKETING IS THE WAY • DIGITAL
+            MARKETING
           </span>
           <span className="text-white font-cooper md:text-[1.9rem] text-[1.3rem] font-[800]">
-            • DIGITAL MARKETING • DIGITAL MARKETING • DIGITAL MARKETING
+            • DIGITAL MARKETING • DIGITAL MARKETING IS THE WAY • DIGITAL
+            MARKETING
           </span>
         </div>
       </Marquee>
