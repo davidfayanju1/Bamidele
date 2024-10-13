@@ -64,9 +64,26 @@ const Home = () => {
       </Marquee>
 
       {/* About */}
-      <section className="item_container bg-gray-200 min-h-[30rem] flex itemsc-enter justify-between gap-3">
-        <div className="text_section">
-          <span className="title"></span>
+      <section className="item_container mx-auto md:px-[4rem] px-[1.5rem] bg-white min-h-[30rem] flex items-center md:flex-row py-9 flex-col justify-between gap-3">
+        <div className="text_section md:w-[48%] w-full">
+          <span className="title block font-semibold text-slate-600">
+            ABOUT ME
+          </span>
+          <p className="mt-3 md:font-semibold md:text-[1rem] text-[.8rem]">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+            esse sed a aliquid autem culpa nemo debitis voluptates facilis quam
+            dolor sequi dolores illo perspiciatis nulla commodi minima optio
+            voluptate officiis, corrupti ad repellat deleniti nihil. Vel iure
+            saepe consequatur, quo quibusdam sapiente. Porro, reprehenderit?
+            Deserunt doloribus ea earum alias.
+          </p>
+        </div>
+        <div className="picture_section md:w-[48%] w-full rounded-[10px] overflow-hidden">
+          <img
+            src="/images/marketing2.webp"
+            alt=""
+            className="rounded-[20px]"
+          />
         </div>
       </section>
     </MainLayout>
