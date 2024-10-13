@@ -86,6 +86,12 @@ const Home = () => {
           />
         </div>
       </section>
+
+      <section className="testimonial_section py-[3rem] bg-gray-50 min-h-[30rem]">
+        <span className="block title font-semibold text-center text-slate-600">
+          TESTIMONIALS
+        </span>
+      </section>
     </MainLayout>
   );
 };
